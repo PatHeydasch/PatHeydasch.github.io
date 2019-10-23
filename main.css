@@ -1,5 +1,27 @@
-body{
-  background-color: #fea762;}
+h1 {
+  text-allign: center;
+  text-decoration: underline
+    font-size: 150px;
+}
+
+.featured{
+  background-color: #fea890;
+    font-family: helvetic;
+  font-size: 24px;
+  border: 6px dashed #000000;
+  padding: 50px 10px 20px 40px;
+  margin: 20px;
+}
+.content{
+  background-color:#fea087;
+  border: 10px dashed #fea;
+  margin: 20px;
+  padding: 15px 30px;
+  width: px;
+  height:200px;
+  overflow: scroll;
+}
+
 
   
   
