@@ -1,26 +1,19 @@
-document.write("Loop A <br/>");
-var i;
-for(i=0; i<31; i++){
-  document.write("my loop:" + i + "<br/>");
-}
+/*Below is the for loop */
+document.write("Using Math.sqrt <br/>")
+for(var k = 0; k < 9; k++)
+  {
+    var ans = Math.sqrt(k);
+    document.write(ans + "<br/>");
+  }
 
-document.write("Loop B <br/>");
+/*Below is the while loop*/
+document.write("<br/>  Using Math.random")
 
-var j;
-for(j=200; j>149; j--){
-  document.write("my loop:" + j + "<br/>");
-}
+var beginning = 40;
 
-document.write("Loop C <br/>");
-var k;
-for(k=100; k<5001; k+=100){
-  document.write("third loop:" + k +"<br/>")
-}
-
-document.write("Power loop <br/>");
-var p;
-for(p= 0; p<9; p++){
-var ans = Math.pow(2,p);
-  document.write("the power is:" + ans + "<br/>");
-}
-
+while(beginning > 0)
+   {
+    document.write("<br />Current Count: " + beginning )
+    beginning = Math.random () * 11;
+     beginning--;
+   }
